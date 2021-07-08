@@ -1,0 +1,103 @@
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+	background-color: lightblue;
+	margin: 0;
+}
+
+header {
+	background-color: lightcyan;
+}
+
+header .brand {
+	color: rgb(252, 188, 25);
+	font-size: 3em;
+	font-weight: 600;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end; 
+  }
+  
+nav li {
+	display: inline;
+	margin: 0 1em;
+  }
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: lightsalmon;
+}
+nav a:active {
+	color: lightgreen;
+}
+
+
+main {
+	display: flex;
+	margin-left: 2em;
+}
+
+.hero img {
+	width: 100%;
+}
+
+.main_section {
+	flex: 3;
+}
+
+aside {
+	margin: 0 2em;
+	flex: 1;
+}
+
+
+.main_friends {
+	background-color: lightcyan;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 3em;
+	padding-bottom: 1.5em;
+}
+
+.friend {
+	text-align: center;
+	max-width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.friend img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+footer {
+	background-color: darkcyan;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+footer a {
+	color: white;
+
+}
+footer a:hover {
+	color: darkslateblue;
+}
+
